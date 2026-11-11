@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JobFounder</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="w-full bg-white border-b">
+      <nav class="flex items-center justify-between px-6 py-4">
+        <div class="flex items-center gap-6 bbb">
+          <h1 class="font-bold text-2xl">Job<span class="dd">Yab</span></h1>
+          <p class="text-sm">JobOpportunities</p>
+          <p class="text-sm">Products</p>
+          <p class="text-sm">CompanyClassification</p>
+          <p class="text-sm">ResumeBuilder</p>
+        </div>
+        <div class="flex justify-end w-full">
+          <button
+            class="font-bold border-4 border-blue px-6 py-4 rounded-3xl text-black bn"
+          >
+            Sign-in|log-in
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="w-full py-10">
+      <h2 class="v mx-4 my-4 font-bold text-2xl">
+        What kind of job are you looking for?
+      </h2>
+      <div class="flex items-center gap-6">
+        <input
+          type="text"
+          placeholder="Job Title or Company..."
+          class="border-4 px-6 py-2 mx-4 my-4 text-gray-400 dds"
+        />
+        <select class="border-4 px-6 py-2 mx-4 my-4 text-gray-400 vsd">
+          <option value="">Job's Group</option>
+          <option value="">Employee</option>
+          <option value="">Nurse</option>
+          <option value="">Mechanic</option>
+          <option value="">Barber</option>
+          <option value="">Barista</option>
+        </select>
+        <select class="border-4 px-6 py-2 mx-4 my-4 text-gray-400 vsd">
+          <option value="">Choose your city</option>
+          <option value="">Los Angeles</option>
+          <option value="">California</option>
+          <option value="">Tokyo</option>
+          <option value="">Shanghai</option>
+          <option value="">Rasht</option>
+        </select>
+        <p class="border-4 px-4 text-white bnm">Search</p>
+      </div>
+    </section>
+    <h2 class="mx-4 font-bold text-2xl mm py-2">
+      The latest job postings for you
+    </h2>
+    <p class="mx-4 border-b py-2 jk">Tailored to your interests</p>
+    <p class="text-gray-400 mx-4 my-4">
+      JobFounder’ s AI-powered recommendations based on your behavior and
+      performance
+    </p>
+    <div class="grid grid-cols-3 gap-6 ml-30">
+      <div
+        class="shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bbv"
+      >
+        <div class="mt-3 flex-row">
+          <span
+            class="mx-6 border-2 border-black rounded-xl px-2 text-white bg-yellow-400/40"
+            >Nurse</span
+          >
+          <span
+            class="mx-2 border-2 border-black rounded-xl px-2 text-white bg-red-400/40"
+            >Reviewing resume</span
+          >
+        </div>
+        <div class="flex text-white kp">
+          <img src="assets/img/images (1).jpg" alt="" class="w-10 h-10 my-6" />
+          <span class="my-6 mx-4">Good Nurse</span>
+          <p class="mt-15 mx-2">Kennedy Hospital</p>
+        </div>
+        <hr />
+        <div class="pt-5 mx-2 flex">
+          <span>10 day's ago</span>
+          <button
+            type="button"
+            class="ml-30 border-4 border-blue rounded-3xl py-1 px-2 bg-blue-400/40 font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            Send Resume
+          </button>
+        </div>
+      </div>
+      <div
+        class="shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bbv"
+      >
+        <div class="mt-3 flex-row">
+          <span
+            class="mx-6 border-2 border-black rounded-xl px-2 text-white bg-yellow-400/40"
+            >Bank Manager</span
+          >
+          <span
+            class="mx-2 border-2 border-black rounded-xl px-2 text-white bg-red-400/40"
+            >Reviewing resume</span
+          >
+        </div>
+        <div class="flex text-white">
+          <img src="assets/img/images.jpg" alt="" class="w-10 h-10 my-6" />
+          <span class="my-6 mx-4">Good Bank Manager</span>
+          <p class="mt-15 mx-2">Fleeca Bank</p>
+        </div>
+        <hr />
+        <div class="pt-5 mx-2 flex">
+          <span>12 day's ago</span>
+          <button
+            type="button"
+            class="ml-30 border-4 border-blue rounded-3xl py-1 px-2 bg-blue-400/40 font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            Send Resume
+          </button>
+        </div>
+      </div>
+      <div
+        class="shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bbv"
+      >
+        <div class="mt-3 flex-row">
+          <span
+            class="mx-6 border-2 border-black rounded-xl px-2 text-white bg-yellow-400/40"
+            >Football player</span
+          >
+          <span
+            class="mx-2 border-2 border-black rounded-xl px-2 text-white bg-red-400/40"
+            >Reviewing resume</span
+          >
+        </div>
+        <div class="flex text-white">
+          <img src="assets/img/download.jpg" alt="" class="w-10 h-10 my-6" />
+          <span class="my-6 mx-4">we need good football player </span>
+          <p class="mt-15 mx-2">Sabzevar</p>
+        </div>
+        <hr />
+        <div class="pt-5 mx-2 flex">
+          <span>101 day's ago</span>
+          <button
+            type="button"
+            class="ml-30 border-4 border-blue rounded-3xl py-1 px-2 bg-blue-400/40 font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            Send Resume
+          </button>
+        </div>
+      </div>
+      <div
+        class="shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bbv"
+      >
+        <div class="mt-3 flex-row">
+          <span
+            class="mx-6 border-2 border-black rounded-xl px-2 text-white bg-yellow-400/40"
+            >barber</span
+          >
+          <span
+            class="mx-2 border-2 border-black rounded-xl px-2 text-white bg-red-400/40"
+            >Reviewing resume</span
+          >
+        </div>
+        <div class="flex text-white">
+          <img src="assets/img/images (2).jpg" alt="" class="w-10 h-10 my-6" />
+          <span class="my-6 mx-4">We want proffesinal barber</span>
+          <p class="mt-15 mx-2">Barbershop</p>
+        </div>
+        <hr />
+        <div class="pt-5 mx-2 flex">
+          <span>70 day's ago</span>
+          <button
+            type="button"
+            class="ml-30 border-4 border-blue rounded-3xl py-1 px-2 bg-blue-400/40 font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            Send Resume
+          </button>
+        </div>
+      </div>
+      <div
+        class="shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bbv"
+      >
+        <div class="mt-3 flex-row">
+          <span
+            class="mx-6 border-2 border-black rounded-xl px-2 text-white bg-yellow-400/40"
+            >Attender</span
+          >
+          <span
+            class="mx-2 border-2 border-black rounded-xl px-2 text-white bg-red-400/40"
+            >Reviewing resume</span
+          >
+        </div>
+        <div class="flex flex-row items-center gap-2 text-white">
+          <img
+            src="assets/img/download (1).jpg"
+            alt=""
+            class="w-10 h-10 my-6"
+          />
+          <span class="my-6 mx-4">we want nice attender for our airplane</span>
+          <div class="mx-2">
+            <span>Air</span>
+            <span>403</span>
+          </div>
+        </div>
+        <hr />
+        <div class="pt-5 mx-2 flex">
+          <span>20 day's ago</span>
+          <button
+            type="button"
+            class="ml-30 border-4 border-blue rounded-3xl py-1 px-2 bg-blue-400/40 font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            Send Resume
+          </button>
+        </div>
+      </div>
+      <div
+        class="shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bbv"
+      >
+        <div class="mt-3 flex-row">
+          <span
+            class="mx-6 border-2 border-black rounded-xl px-2 text-white bg-yellow-400/40"
+            >Garson</span
+          >
+          <span
+            class="mx-2 border-2 border-black rounded-xl px-2 text-white bg-red-400/40"
+            >Reviewing resume</span
+          >
+        </div>
+        <div class="flex text-white">
+          <img src="assets/img/images (3).jpg" alt="" class="w-10 h-10 my-6" />
+          <span class="my-6 mx-4">we need Experienced </span>
+          <p class="mt-15 mx-2">ّ Frankiy resturant</p>
+        </div>
+        <hr />
+        <div class="pt-5 mx-2 flex">
+          <span>17 day's ago</span>
+          <button
+            type="button"
+            class="ml-30 border-4 border-blue rounded-3xl py-1 px-2 bg-blue-400/40 font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            Send Resume
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <button
+        type="button"
+        class="border-4 rounded-3xl py-2 px-2 my-4 shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 font-bold ccc"
+      >
+        View All
+      </button>
+    </div>
+    <hr class="col" />
+    <div class="grid grid-cols-4 gap-4 containerr">
+      <div class="">
+        <h2 class="font-bold mx-4 my-4 ml-5 mt-6">
+          Nationwide Government Recruitment
+        </h2>
+        <p class="mx-4 text text-red-700 font-bold">
+          All announcements and news regarding government and nationwide
+          recruitment
+        </p>
+        <div class="grid grid-cols-4 gap-99">
+          <div
+            class="bg-white shadow-xl bvvv mx-4 my-4 shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            <h2 class="mx-4 my-4 font-bold">Bank</h2>
+            <i class="fa-solid fa-building-columns"></i>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Bank Day Recruitment 1405 | Requirements and Registration Process
+            </p>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Bank Sina Recruitment 1405 | Registration Requirements and Exam
+              Date
+            </p>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Study Resources for the Bank of Industry and Mine Recruitment Exam
+            </p>
+          </div>
+          <div
+            class="bg-white shadow-xl bvvv mx-4 my-4 shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            <h2 class="mx-4 my-4 font-bold">Employment in the Education</h2>
+            <i class="fa-solid fa-building-columns"></i>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Recruitment of Teachers in the Education Sector (1406) | Latest
+              Status of Staffing via Article 28
+            </p>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Recruitment of Nursing Assistants in Bushehr (1405) | Hiring for
+              89-Day Contract Positions
+            </p>
+          </div>
+          <div
+            class="bg-white shadow-xl bvvv mx-4 my-4 shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            <h2 class="mx-4 my-4 font-bold">Employment in Ministries</h2>
+            <i class="fa-solid fa-building-columns"></i>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Registration for the 1405 Official Judiciary Experts Examination |
+              Requirements and Deadlines
+            </p>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Recruitment by the Tehran Province Electricity Distribution
+              Contracting Company (1405) | Registration Open Until Mehr 16
+            </p>
+          </div>
+          <div
+            class="bg-white shadow-xl bvvv mx-4 my-4 shadow-xl/30 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            <h2 class="mx-4 my-4 font-bold">
+              Employment in the Oil, Gas, and Petrochemical Sector
+            </h2>
+            <i class="fa-solid fa-building-columns"></i>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Recruitment at Negahdasht Karan Company (1405) | Hiring for
+              Khorasan Petrochemical
+            </p>
+            <p
+              class="mx-4 my-4 text-gray-800 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              Recruitment at Tabriz Oil Refining Company (1405) | Hiring for
+              Specialist/Expert-Level Positions
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col justify-center items-center cont2">
+      <h2 class="font-bold">Are you an employer?</h2>
+      <button
+        type="button"
+        class="border-4 my-4 py-2 px-2 border-blue rounded-3xl bg-blue-400/40 font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+      >
+        post your ad
+      </button>
+    </div>
+    <footer class="cct">
+      <h2 class="text-white font-bold mx-4 py-4">Frequently Asked Questions</h2>
+      <p class="text-white mx-4 py-4 border-2 rounded-md">
+        <span class="mx-4">
+          1. What advantages does JobFounder have over other job search and
+          recruitment websites?</span
+        >
+      </p>
+
+      <p class="text-white mx-4 py-4 border-2 rounded-md mt-6">
+        <span class="mx-4">
+          2. Does creating and submitting a resume on JobFounder cost
+          anything?</span
+        >
+      </p>
+
+      <p class="text-white mx-4 py-4 border-2 rounded-md mt-6">
+        <span class="mx-4">
+          3. Are the job opportunities on the JobVision website up to
+          date?</span
+        >
+      </p>
+      <h1 class="text-white mx-4 my-4 font-bold">
+        Get hired through Iran’s most reputable job search and recruitment
+        website.
+      </h1>
+      <p class="text-white mx-4 py-4 leading-8">
+        Finding a desired job and securing a new employment opportunity within a
+        reputable organization—under favorable working conditions—is no easy
+        task. For job seekers, the process of finding employment has always been
+        a path fraught with significant challenges. The less-than-ideal state of
+        the labor market, combined with a lack of specialized skills among job
+        seekers, has turned this into a major societal issue.
+      </p>
+      <p id="copyright" class="text-4xl justify-center">
+        Copyright &copy; JOBYAB Ins, All Right Reserved
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+body {
+  background-color: white;
+}
+.sd {
+  background-color: #172554 #2563eb #22d3ee #f8fafc;
+}
+.dd {
+  color: blue;
+}
+.bn {
+  border-color: blu;
+  box-shadow: 2px 2px 2px 2px gainsboro;
+  text-shadow: 2px 2px gainsboro;
+  background-color: white;
+
+  cursor: pointer;
+}
+.bn:hover {
+  box-shadow: 2px 2px 2px 2px gainsboro;
+  text-shadow: 2px 2px gainsboro;
+  background-color: blue;
+  transition: 1.5s;
+}
+.v {
+  color: blue;
+}
+.dds {
+  border-color: blue;
+  border-radius: 20px;
+}
+.vsd {
+  border-color: blue;
+  border-radius: 20px;
+}
+.bnm {
+  background-color: blue;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.mm {
+  color: blue;
+}
+.jk {
+  color: black;
+  border-color: black;
+}
+.bbb {
+  cursor: pointer;
+}
+.container {
+  display: block;
+  border-radius: 40px;
+  border-color: goldenrod;
+  height: 400px;
+  width: 500px;
+}
+.container:hover {
+  transition: 2s;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+.bbv {
+  width: 80%;
+  height: 200px;
+  background-color: lightblue;
+  border-radius: 30px;
+}
+.col {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.ccc {
+  border-color: blue;
+  background-color: lightcyan;
+}
+.containerr {
+  width: 100%;
+  background-color: blue;
+  height: 500px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.bvvv {
+  border: none;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+}
+.cont2 {
+  width: 500px;
+  height: 200px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.mkl {
+  border: none;
+  border-radius: 10px;
+}
+.cct {
+  background-color: blue;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
